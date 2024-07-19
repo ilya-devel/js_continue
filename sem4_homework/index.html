@@ -73,7 +73,8 @@
 
         const addErrMsg = (element) => {
             const errMsg = document.createElement('p')
-            errMsg.style.font = '10px red'
+            errMsg.style.fontSize = '10px'
+            errMsg.style.color = 'red'
             errMsg.classList.add('invalid-submit')
             errMsg.textContent = 'Не указаны данные'
             element.insertAdjacentElement('afterend', errMsg)
