@@ -984,6 +984,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  text-align: start;
 }
 .product__name {
   font-style: normal;
